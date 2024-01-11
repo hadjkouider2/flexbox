@@ -26,3 +26,17 @@
     /* line-height: 200px; */
     color: aliceblue;
 }
+
+.icons{
+    width: 30%;
+    height: 70px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 48px;
+    
+}

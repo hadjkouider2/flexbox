@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 /*****************Container*******************/
@@ -69,9 +70,11 @@
 
 /*****************End Header*******************/
 .main{
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    width: 100vw;
 }
 .main .photo1{
     flex-basis: 70%;
@@ -100,42 +103,48 @@
     margin-left: 200px;
     margin-right: 200px;
     gap: 60px;
-    background-color: #cccccc4e;
+    background-color: rgb(211,211, 211);
+        
+}
+.con :hover{
+    background-color: #ccc;
 }
 .con img{
     background-color: #fff;
     border: 1px solid white;
-    border-radius: 30px;
+    border-radius: 50px;
 }    
     
 h4{
     text-align: center ;
-    font-size: 15px; 
+    font-size: 15px;
 } 
 .photo4{
     text-align: center;
-    
     margin-top: 30px;
-    margin-bottom: 50px;
-   
+    margin-bottom: 80px;
+}
+.photo4 img{
+    height: 60px;
+    margin-top: -20px;
 }
 .photo11{
     margin-left: -30px;
 }
 .photo12{
-    margin-left: -70px;
+    margin-left: -60px;
 }
 .photobanniere img{
-
     width:75%;
-    height: 100px;
+    height: 200px;
     margin-left: 200px;
-    margin-right: 800px;
+   margin-right: 300px;
 }
 .card {
     display: flex;
 }
-.titre h4{
+.titre h4{  
+
     text-align: start;
     margin-left: 200px;
     margin-top: 20px;
@@ -153,9 +162,33 @@ h4{
     margin-left: 200px;
 }
 
-.card2{
+.card2 {
     margin-left: -190px;
 }
+.card2 img{
+    width: 200px;
+}
+.card3 {
+    margin-left: -190px;
+}
+.card3 img{
+    width: 180px;
+}
+.card4 {
+    margin-left: -190px;
+}
+.card5 {
+    margin-left: -190px;
+}
+.card5 img{
+    width: 200px;
+}
+.card6 {
+    margin-left: -190px;
+}
+
+
+
 .logo{
     margin-left: 200px;
     border :1px solid black;
@@ -167,7 +200,21 @@ h4{
     font-size: 15px;
     font-weight: 0.5px;
     border: 1px solid black;
-}    
+}
+.store{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: center
+} 
+.store img{
+    width: 300px;
+}
+h2{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}   
 
 
 
